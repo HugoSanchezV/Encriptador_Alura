@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="main">
+
+        <div class="texto-izquierdo">
+            <img src="img/Vector.png" alt="Imagen logo" class="alinear-izquierda">
+
+            <div class="entrada-texto">
+                <textarea placeholder="Ingrese texto aqui" name="input-text" id="input-text" cols="60" rows="20"
+                    class="text-area"></textarea>
+                <p class="texto-advertencia alinear-izquierda">
+                    <img src="img/exclamacion.png" alt="simbolo de exclamacion"> Solo letras minusculas y sin acentos
+                </p>
+
+                <div class="botones">
+                    <a id="encriptar" class="btn btn-azul" href="">Encriptar</a>
+                    <a id="desencriptar" class=" btn btn-blanco " href="">Desencriptar</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="texto-derecha" id="derecha">
+            <div id="datos-derecha">
+                <img id="imagen-muñeco" src="img/Muñeco.png" class="imagen-des" alt="Imagen muñeco">
+
+                <h2 class="" id="titulo-resultado">Ningun mensaje fue encriptado</h2>
+                <p class="" id="">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+
+            <textarea name="text-are" id="text-area-resultado" class="output-resultado no-display" cols="30" rows="10"
+                readonly></textarea>
+
+            <div class="botones botones-flex">
+                <a id="copiar" class=" btn btn-blanco  btn-copiar" href="">Copiar</a>
+            </div>
+        </div>
+
+    </main>
+    <script src="js/encriptador.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
