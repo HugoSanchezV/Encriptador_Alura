@@ -220,7 +220,8 @@ a {
 
     .imagen-des {
         display: block;
-        margin-top: 21rem;
+        margin: 13rem auto;
+        margin-bottom: 0;
     }
 }
 
