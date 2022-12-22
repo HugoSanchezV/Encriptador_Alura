@@ -106,7 +106,7 @@ a {
 }
 
 .text-area {
-    max-height: 50rem;
+    max-height: 40rem;
     max-width: 10rem;
     min-width: 100%;
     color: var(--primario);
@@ -137,7 +137,7 @@ a {
     .output-resultado {
         margin-top: .2rem;
         margin-bottom: 5rem;
-        min-height: 55rem;
+        min-height: 45rem;
     }
 }
 
